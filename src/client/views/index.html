@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>Sentiment Analysis</title>
     </head>
 
     <body>
@@ -19,12 +19,12 @@
         <main>
             <section>
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
+                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Url">
                     <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
             </section>
 
-            <section>
+            <section id="resultsSection">
                 <strong>Form Results:</strong>
                 <div id="results"></div>
             </section>

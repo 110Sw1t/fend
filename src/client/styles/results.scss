@@ -1,0 +1,15 @@
+@mixin border {
+   border: 1px solid #545454;
+   border-radius: 3px;
+   padding: 8px;
+   margin: 16px;
+}
+#resultsSection {
+   strong {
+      @include border();
+   }
+
+   #results {
+      @include border();
+   }
+}
