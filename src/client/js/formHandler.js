@@ -1,6 +1,9 @@
 import { validURL } from './urlChecker'
 
 function handleSubmit(event) {
+
+    if(!event || !Object.keys(event).length) return;
+
     event.preventDefault()
 
     // check what text was put into the form field
