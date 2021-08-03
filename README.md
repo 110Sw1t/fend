@@ -15,7 +15,6 @@ Then insights will be generated on form submition and displays user information 
 ## 1- Clone the project
 ```bash
 git clone https://github.com/110Sw1t/fend.git
-git checkout refresh-2019
 ```
 ## 2- Navigate to project's root folder
 ```bash
