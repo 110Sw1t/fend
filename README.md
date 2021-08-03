@@ -24,8 +24,15 @@ cd fend
 ```bash
 npm i
 ```
-## 4- Start the application
+## 4- Build the application
+```bash
+npm run build-prod
+```
+## 5- Start the application
 ```bash
 npm run start
 ```
 The app will be served at http://localhost:8081/
+
+### Find app deployed on Netlify for your quick review! [here](https://affectionate-agnesi-3e23f7.netlify.app/)
+
